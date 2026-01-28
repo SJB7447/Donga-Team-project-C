@@ -53,6 +53,10 @@ def crawl_url(url):
 def index():
     return render_template('index.html')
 
+@app.route('/guide')
+def guide():
+    return render_template('guide.html')
+
 @app.route('/generate', methods=['POST'])
 def generate_content():
     try:
