@@ -1,6 +1,0 @@
-Flask
-openai
-python-dotenv
-beautifulsoup4
-requests
-supabase
